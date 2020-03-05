@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(2, 5, 22);
+}
+
+header{
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+}
+
+header h1{
+    text-align: center;
+    color: rgb(2, 5, 22);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.score-board{
+    border: 1px solid white;
+    margin: 0 auto;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 45px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.label{
+    background-color: tomato;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px 10px;
+
+}
+
+#user-label{
+    position: absolute;
+    top: 132px;
+    left: 498px;
+}
+
+#computer-label{
+    position: absolute;
+    top: 132px;
+    right:492px ;
+}
+
+.result p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.choices{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.choice{
+    border: 2px solid white;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+}
+
+.choice:hover{
+    background-color: red;
+
+}
+
+#action-message{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+
+}
